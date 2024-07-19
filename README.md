@@ -27,7 +27,7 @@
 
 This script is useful for quality control and sample identification in single-cell sequencing experiments, particularly when working with multi-omic data (e.g., combined gene expression and protein abundance measurements). It helps identify potential sample mix-ups or contamination by comparing barcode overlap between different sample types.
 
-The code appears well-structured and uses efficient methods like streaming for handling large files. However, it's worth noting that the subsample size (1e6) and barcode length (16) are hardcoded, which might need adjustment depending on the specific experimental setup.
+The subsample size (1e6) and barcode length (16) are hardcoded, which might need adjustment depending on the specific experimental setup.
 
 
 Expect you folder structure : 
